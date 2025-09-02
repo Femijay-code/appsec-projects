@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask, request, render_template
 import sqlite3
 
@@ -27,3 +28,6 @@ def login():
 
 if __name__ == "__main__":
     app.run(debug=True)
+=======
+
+>>>>>>> 99f1aa9bb629bcb253f17ce813a32c279f991198

@@ -1,3 +1,4 @@
+ HEAD
 ```markdown
 # SQL Injection Demo
 
@@ -88,3 +89,7 @@ Do not use these techniques on any system without permission.
 ---
 
 
+=======
+# sql-injection-demo
+A demo project showing how SQL Injection can bypass authentication in a vulnerable Flask application.
+ 99f1aa9bb629bcb253f17ce813a32c279f991198
