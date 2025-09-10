@@ -36,12 +36,23 @@ Each project demonstrates common security vulnerabilities and their secure imple
 * **Folder:** `xss-stored-secure/`
 * A secure version of the stored XSS demo that sanitizes input before saving it to the database.
 * Shows how proper **input sanitization and output encoding** prevent stored XSS attacks.
+  
+### 7. Command Injection Demo (Vulnerable)
+* **Folder:** `command-injection-vulnerable/`
+* A deliberately vulnerable app that allows **unsanitized system command execution**.
+* Goal: Understand how attackers exploit command injection flaws to run arbitrary commands on the host.
+
+### 8. Command Injection Demo (Secure)
+
+* **Folder:** `command-injection-secure/`
+* A secure version of the demo that uses **input validation and safe system command handling**.
+* Demonstrates how to mitigate command injection vulnerabilities effectively.
+
 
 ---
 
 ## 📌 Roadmap (Upcoming Projects)
 
-* Command Injection
 * Insecure File Uploads
 * Authentication & Session Management flaws
 * More OWASP Top 10 vulnerabilities
@@ -60,7 +71,6 @@ Each project demonstrates common security vulnerabilities and their secure imple
 
 * Document and showcase hands-on **application security projects**.
 * Provide a structured learning path for understanding and preventing real-world vulnerabilities.
-* Serve as a professional portfolio for practical security skills.
 
 ---
 
@@ -68,5 +78,3 @@ Each project demonstrates common security vulnerabilities and their secure imple
 
 These projects are for **educational purposes only**.
 Do not deploy vulnerable versions in production environments.
-
----
