@@ -20,13 +20,12 @@ The application validates file types, enforces size limits, and securely stores 
 1. Navigate into the project folder:
    ```bash
    cd file-upload-secure
-````
 
 2. Run the Flask app:
 
    ```bash
    python3 app.py
-   ```
+
 3. Open your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
 ---
@@ -42,6 +41,3 @@ The application validates file types, enforces size limits, and securely stores 
 ## 📌 Purpose
 
 This app demonstrates **secure coding practices** to prevent **Unrestricted File Upload vulnerabilities**, aligned with **OWASP recommendations**.
-
-````
-
