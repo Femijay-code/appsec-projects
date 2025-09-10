@@ -48,12 +48,20 @@ Each project demonstrates common security vulnerabilities and their secure imple
 * A secure version of the demo that uses **input validation and safe system command handling**.
 * Demonstrates how to mitigate command injection vulnerabilities effectively.
 
+### 9. File Upload Demo (Vulnerable)
+* **Folder:** `file-upload-vulnerable/`
+* A deliberately vulnerable app that allows **unrestricted file uploads**.
+* Goal: Understand risks like malicious scripts, webshells, and unauthorized access.
+
+### 10. File Upload Demo (Secure)
+* **Folder:** `file-upload-secure/`
+* A secure version of the file upload demo.
+* Implements **file type validation, size limits, and safe storage practices** to prevent exploitation.
 
 ---
 
 ## 📌 Roadmap (Upcoming Projects)
 
-* Insecure File Uploads
 * Authentication & Session Management flaws
 * More OWASP Top 10 vulnerabilities
 
