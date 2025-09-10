@@ -8,28 +8,34 @@ Each project demonstrates common security vulnerabilities and their secure imple
 ## 📂 Current Projects
 
 ### 1. SQL Injection Demo
-
 * **Folder:** `sql-injection-demo/`
 * A deliberately vulnerable web application showcasing **SQL Injection (SQLi)** attacks.
 * Goal: Learn how SQLi works, identify vulnerabilities, and practice exploiting them in a safe environment.
 
 ### 2. SQL Injection Safe Version
-
 * **Folder:** `sql-injection-safe/`
 * A secure version of the SQLi demo app.
 * Demonstrates how to properly implement **input validation, prepared statements, and secure coding practices** to prevent SQL Injection.
 
-### 3. XSS Demo (Vulnerable)
-
+### 3. Reflected XSS Demo (Vulnerable)
 * **Folder:** `xss-vulnerable/`
-* A web application that does **not sanitize user input**, allowing stored/reflected XSS attacks.
+* A web application that does **not sanitize user input**, allowing reflected XSS attacks.
 * Goal: Understand how attackers inject malicious scripts into web pages.
 
-### 4. XSS Demo (Secure)
-
+### 4. Reflected XSS Demo (Secure)
 * **Folder:** `xss-secure/`
-* A secure version of the XSS demo that uses **input sanitization (Bleach library)** to prevent execution of malicious scripts.
+* A secure version of the reflected XSS demo that uses **input sanitization (Bleach library)** to prevent execution of malicious scripts.
 * Demonstrates how to protect against XSS vulnerabilities.
+
+### 5. Stored XSS Demo (Vulnerable)
+* **Folder:** `xss-stored-vulnerable/`
+* A web application vulnerable to **stored cross-site scripting**, where malicious input is saved in the database and shown to all visitors.
+* Goal: Demonstrate how stored XSS persists across sessions and impacts multiple users.
+
+### 6. Stored XSS Demo (Secure)
+* **Folder:** `xss-stored-secure/`
+* A secure version of the stored XSS demo that sanitizes input before saving it to the database.
+* Shows how proper **input sanitization and output encoding** prevent stored XSS attacks.
 
 ---
 
@@ -64,5 +70,3 @@ These projects are for **educational purposes only**.
 Do not deploy vulnerable versions in production environments.
 
 ---
-
-👉 Would you like me to also write **separate README files** for `xss-vulnerable/` and `xss-secure/` (just like your SQLi folders have), or keep everything only in the main README for now?
