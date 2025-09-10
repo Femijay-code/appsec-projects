@@ -39,6 +39,3 @@ This is a **classic example of Unrestricted File Upload vulnerability** (OWASP A
 ## 📌 Purpose
 
 This vulnerable app is for **educational purposes only**, showing how dangerous unrestricted file uploads can be.
-
-````
-
