@@ -1,7 +1,24 @@
 # Application Security Projects
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-lightgrey?logo=flask)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite)
+![Security](https://img.shields.io/badge/Focus-Application%20Security-red?logo=datadog)
+
+
 This repository is a growing collection of hands-on **application security projects**.
 Each project demonstrates common security vulnerabilities and their secure implementations, helping to bridge the gap between theory and practice.
+
+---
+
+## 📑 Table of Contents
+- [Current Projects](#-current-projects)
+- [Projects Overview Table](#-projects-overview-table)
+- [Roadmap](#-roadmap-upcoming-projects)
+- [How to Use](#-how-to-use)
+- [Purpose](#-purpose)
+- [Disclaimer](#-disclaimer)
+
 
 ---
 
@@ -57,6 +74,18 @@ Each project demonstrates common security vulnerabilities and their secure imple
 * **Folder:** `file-upload-secure/`
 * A secure version of the file upload demo.
 * Implements **file type validation, size limits, and safe storage practices** to prevent exploitation.
+
+---
+
+## 📊 Projects Overview Table
+
+| Vulnerability       | Vulnerable App | Secure App | Key Fix Implemented |
+|---------------------|---------------|------------|---------------------|
+| SQL Injection       | [`sql-injection-demo`](./sql-injection-demo) | [`sql-injection-safe`](./sql-injection-safe) | Parameterized queries, input validation |
+| Reflected XSS       | [`xss-vulnerable`](./xss-vulnerable) | [`xss-secure`](./xss-secure) | Input sanitization with Bleach |
+| Stored XSS          | [`xss-stored-vulnerable`](./xss-stored-vulnerable) | [`xss-stored-secure`](./xss-stored-secure) | Sanitization before DB storage |
+| XSS (with DB)       | [`xss-vulnerable-db`](./xss-vulnerable-db) | [`xss-secure-db`](./xss-secure-db) | Escaping + validation on input/output |
+| File Upload         | [`file-upload-vulnerable`](./file-upload-vulnerable) | [`file-upload-secure`](./file-upload-secure) | File type validation, size limits, safe storage |
 
 ---
 
