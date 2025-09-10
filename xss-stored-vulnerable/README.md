@@ -1,4 +1,3 @@
-````markdown
 # Stored XSS Demo (Vulnerable)
 
 ## Overview
@@ -9,7 +8,6 @@ User input is stored and rendered without sanitization, allowing malicious scrip
 1. Run the app:
    ```bash
    python3 app.py
-````
 
 2. Open `http://127.0.0.1:5000`
 3. Submit a comment with payload:
@@ -19,12 +17,8 @@ User input is stored and rendered without sanitization, allowing malicious scrip
    ```
 4. The payload executes every time the page loads.
 
-## Screenshot
-
-*Add screenshot of the alert popup here.*
 
 ## Impact
 
 Attackers can steal cookies, deface pages, or run arbitrary JavaScript.
 
-````
