@@ -1,4 +1,3 @@
-````markdown
 # Command Injection Demo (Vulnerable)
 
 This project demonstrates a **Command Injection vulnerability** in a simple Flask app.  
@@ -19,18 +18,17 @@ The application allows users to "ping" a host, but fails to properly sanitize us
 1. Install dependencies:
    ```bash
    pip install flask
-````
 
 2. Run the app:
 
    ```bash
    python3 app.py
-   ```
+
 3. Open in browser:
 
    ```
    http://127.0.0.1:5000/
-   ```
+  
 4. Try the exploit:
 
    * Input: `127.0.0.1; ls`
@@ -42,6 +40,3 @@ The application allows users to "ping" a host, but fails to properly sanitize us
 
 * Understand how improper input handling can allow **command injection**.
 * Learn to recognize patterns where shell commands are executed insecurely.
-
-````
-
