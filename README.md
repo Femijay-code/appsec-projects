@@ -84,7 +84,7 @@ Each project demonstrates common security vulnerabilities and their secure imple
 | SQL Injection       | [`sql-injection-demo`](./sql-injection-demo) | [`sql-injection-safe`](./sql-injection-safe) | Parameterized queries, input validation |
 | Reflected XSS       | [`xss-vulnerable`](./xss-vulnerable) | [`xss-secure`](./xss-secure) | Input sanitization with Bleach |
 | Stored XSS          | [`xss-stored-vulnerable`](./xss-stored-vulnerable) | [`xss-stored-secure`](./xss-stored-secure) | Sanitization before DB storage |
-| XSS (with DB)       | [`xss-vulnerable-db`](./xss-vulnerable-db) | [`xss-secure-db`](./xss-secure-db) | Escaping + validation on input/output |
+| XSS (with DB)       | [`xss-vulnerable`](./xss-vulnerable) | [`xss-secure`](./xss-secure) | Escaping + validation on input/output |
 | File Upload         | [`file-upload-vulnerable`](./file-upload-vulnerable) | [`file-upload-secure`](./file-upload-secure) | File type validation, size limits, safe storage |
 
 ---
