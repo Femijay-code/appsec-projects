@@ -6,7 +6,7 @@
 ![Security](https://img.shields.io/badge/Focus-Application%20Security-red?logo=datadog)
 
 
-This repository is a growing collection of hands-on **application security projects**.
+This repository is a growing collection of my hands-on **application security projects**.
 Each project demonstrates common security vulnerabilities and their secure implementations, helping to bridge the gap between theory and practice.
 
 ---
