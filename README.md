@@ -86,6 +86,7 @@ Each project demonstrates common security vulnerabilities and their secure imple
 | Stored XSS          | [`xss-stored-vulnerable`](./xss-stored-vulnerable) | [`xss-stored-secure`](./xss-stored-secure) | Sanitization before DB storage |
 | XSS (with DB)       | [`xss-vulnerable`](./xss-vulnerable) | [`xss-secure`](./xss-secure) | Escaping + validation on input/output |
 | File Upload         | [`file-upload-vulnerable`](./file-upload-vulnerable) | [`file-upload-secure`](./file-upload-secure) | File type validation, size limits, safe storage |
+| Authentication & Session Management flaws | `auth-vulnerable/` | `auth-secure/` | Demonstrates weak authentication (plain text passwords, no session handling) vs secure version with password hashing, session management, and logout. |
 
 ---
 
